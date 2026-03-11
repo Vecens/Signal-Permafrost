@@ -13,69 +13,21 @@ To the untrained eye, this repository is a wasteland of jagged JSON arrays and c
 
 We do not store articles. We do not store opinions. We store **Vectors of Hype and Friction**.
 
-As the internet breathes, concepts are born, they mutate, and they decay. Vecens extracts these thermodynamic changes, strips them of their superficial UI, and freezes the raw semantic coordinates into `.ndjson` strata blocks.
+As the internet breathes, concepts are born, they mutate, and they decay. Vecens extracts these thermodynamic changes, strips them of their superficial UI, and freezes the raw semantic coordinates into `.ndjson` strata blocks. 
 
-```
+```text
 strata/
 └── {YEAR}/
     └── Q{1-4}/
         └── {lang}-{vertical}.ndjson
 ```
 
----
+Anatomy of a Slice Every line you see is a frozen cross-section of a digital heartbeat.
 
-## 🔬 Anatomy of a Slice
+Status: The radar is spinning. The permafrost is expanding.
 
-Every line you see is a **frozen cross-section of a digital heartbeat**.
+"Without memory, there is no meaning. Without strata, there is no history."
 
-```jsonc
-{
-  "noun": "WebAssembly",
-  "noun_type": "technology",
-  "category": "runtime",
-  "vertical": "developer_tools",
-  "lang": "en",
-  "occurrenceCount": 147,
-  "avgHype": 0.82,
-  "avgFriction": 0.14,
-  "contextSnippets": [
-    "WebAssembly is eating the server side",
-    "WASM modules now run in edge workers"
-  ],
-  "periodStart": "2019-01-01",
-  "periodEnd": "2019-03-31",
-  "source": "hn_algolia",
-  "extractedAt": "2025-01-01T00:00:00Z"
-}
-```
-
-| Field | Meaning |
-|---|---|
-| `occurrenceCount` | Raw frequency: how many HN threads mentioned this noun in the period |
-| `avgHype` | Mean hype velocity — rising faster than baseline = closer to 1.0 |
-| `avgFriction` | Mean counter-signal — controversy, backlash, skepticism |
-| `contextSnippets` | Verbatim fragments; the only raw human text we preserve |
-| `vertical` | Semantic vertical: `ai_ml`, `developer_tools`, `fintech_invest`, `health_wellness`… |
-| `source` | Always `hn_algolia` for this vault (Hacker News corpus, 2019–present) |
-
----
-
-## 📡 Verticals Index
-
-| Vertical | Description |
-|---|---|
-| `ai_ml` | Artificial intelligence, machine learning, LLMs |
-| `developer_tools` | IDEs, CLIs, compilers, runtimes, SDKs |
-| `big_tech_macro` | FAANG/MAMAA, policy, antitrust, macro-tech |
-| `fintech_invest` | Crypto, DeFi, banking rails, trading systems |
-| `health_wellness` | Biotech, pharma, mental health, pandemic signals |
-| `saas_productivity` | SaaS, workflow automation, no-code/low-code |
-| `open_source_emerging` | OSS projects, protocols, emerging tech (default) |
-| `creator_economy` | Content, newsletters, streaming, indie monetization |
-| `ecommerce` | Retail, logistics, supply chain |
-| `gaming` | Games, engines, esports, metaverse |
-| `marketing` | Adtech, growth, SEO, brand signals |
-| `edtech` | Online learning, credentialing, academic tools |
 
 ---
 
