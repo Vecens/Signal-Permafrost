@@ -1,13 +1,13 @@
 {
   "vault": "Signal-Permafrost",
   "owner": "shooio",
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "description": "The Semantic Strata. The Human semantic deposition layer.",
   "slice_format": "ndjson",
-  "path_template": "strata/{year}/Q{quarter}/{lang}-{vertical}.ndjson",
+  "path_template": "{year}/Q{quarter}/{lang}-{vertical}.ndjson",
   "coverage": {
-    "start": "2019-Q1",
-    "end": "present"
+    "start": "2015-Q1",
+    "end": "2025-Q4"
   },
   "verticals": [
     "developer_tools",
@@ -27,6 +27,4120 @@
     "en",
     "zh"
   ],
-  "generated_at": "2026-03-11T15:52:16.987Z",
-  "slices": []
+  "total_slices": 514,
+  "generated_at": "2026-03-13T04:51:00.000Z",
+  "slices": [
+    {
+      "path": "2015/Q1/en-big_tech_macro.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 45175
+    },
+    {
+      "path": "2015/Q1/en-creator_economy.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 2407
+    },
+    {
+      "path": "2015/Q1/en-developer_tools.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 26507
+    },
+    {
+      "path": "2015/Q1/en-ecommerce.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 4444
+    },
+    {
+      "path": "2015/Q1/en-edtech.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2620
+    },
+    {
+      "path": "2015/Q1/en-fintech_invest.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 14273
+    },
+    {
+      "path": "2015/Q1/en-gaming.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 8017
+    },
+    {
+      "path": "2015/Q1/en-health_wellness.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1756
+    },
+    {
+      "path": "2015/Q1/en-marketing.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 26329
+    },
+    {
+      "path": "2015/Q1/en-open_source_emerging.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 239413
+    },
+    {
+      "path": "2015/Q1/en-saas_productivity.ndjson",
+      "year": 2015,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 3601
+    },
+    {
+      "path": "2015/Q2/en-big_tech_macro.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 48303
+    },
+    {
+      "path": "2015/Q2/en-creator_economy.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 2005
+    },
+    {
+      "path": "2015/Q2/en-developer_tools.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 28704
+    },
+    {
+      "path": "2015/Q2/en-ecommerce.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 6046
+    },
+    {
+      "path": "2015/Q2/en-edtech.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 4544
+    },
+    {
+      "path": "2015/Q2/en-fintech_invest.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 16584
+    },
+    {
+      "path": "2015/Q2/en-gaming.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3230
+    },
+    {
+      "path": "2015/Q2/en-health_wellness.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 2547
+    },
+    {
+      "path": "2015/Q2/en-marketing.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 24051
+    },
+    {
+      "path": "2015/Q2/en-open_source_emerging.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 230663
+    },
+    {
+      "path": "2015/Q2/en-saas_productivity.ndjson",
+      "year": 2015,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2929
+    },
+    {
+      "path": "2015/Q3/en-ai_ml.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1341
+    },
+    {
+      "path": "2015/Q3/en-big_tech_macro.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 51667
+    },
+    {
+      "path": "2015/Q3/en-developer_tools.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 32938
+    },
+    {
+      "path": "2015/Q3/en-ecommerce.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 7330
+    },
+    {
+      "path": "2015/Q3/en-edtech.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 4394
+    },
+    {
+      "path": "2015/Q3/en-fintech_invest.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 15901
+    },
+    {
+      "path": "2015/Q3/en-gaming.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 6974
+    },
+    {
+      "path": "2015/Q3/en-health_wellness.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 3862
+    },
+    {
+      "path": "2015/Q3/en-marketing.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 31454
+    },
+    {
+      "path": "2015/Q3/en-open_source_emerging.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 329721
+    },
+    {
+      "path": "2015/Q3/en-saas_productivity.ndjson",
+      "year": 2015,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2098
+    },
+    {
+      "path": "2015/Q4/en-big_tech_macro.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 41915
+    },
+    {
+      "path": "2015/Q4/en-creator_economy.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 489
+    },
+    {
+      "path": "2015/Q4/en-developer_tools.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 32333
+    },
+    {
+      "path": "2015/Q4/en-ecommerce.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 8570
+    },
+    {
+      "path": "2015/Q4/en-edtech.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 7093
+    },
+    {
+      "path": "2015/Q4/en-fintech_invest.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 18467
+    },
+    {
+      "path": "2015/Q4/en-gaming.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 9471
+    },
+    {
+      "path": "2015/Q4/en-health_wellness.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 6566
+    },
+    {
+      "path": "2015/Q4/en-marketing.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 42908
+    },
+    {
+      "path": "2015/Q4/en-open_source_emerging.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 341018
+    },
+    {
+      "path": "2015/Q4/en-saas_productivity.ndjson",
+      "year": 2015,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 5282
+    },
+    {
+      "path": "2016/Q1/en-big_tech_macro.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 57395
+    },
+    {
+      "path": "2016/Q1/en-creator_economy.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 870
+    },
+    {
+      "path": "2016/Q1/en-developer_tools.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 35192
+    },
+    {
+      "path": "2016/Q1/en-ecommerce.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 10452
+    },
+    {
+      "path": "2016/Q1/en-edtech.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 6756
+    },
+    {
+      "path": "2016/Q1/en-fintech_invest.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 14893
+    },
+    {
+      "path": "2016/Q1/en-gaming.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 7396
+    },
+    {
+      "path": "2016/Q1/en-health_wellness.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 4593
+    },
+    {
+      "path": "2016/Q1/en-marketing.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 32523
+    },
+    {
+      "path": "2016/Q1/en-open_source_emerging.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 325746
+    },
+    {
+      "path": "2016/Q1/en-saas_productivity.ndjson",
+      "year": 2016,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 5786
+    },
+    {
+      "path": "2016/Q2/en-ai_ml.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 3029
+    },
+    {
+      "path": "2016/Q2/en-big_tech_macro.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 38700
+    },
+    {
+      "path": "2016/Q2/en-creator_economy.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 935
+    },
+    {
+      "path": "2016/Q2/en-developer_tools.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 32705
+    },
+    {
+      "path": "2016/Q2/en-ecommerce.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 7469
+    },
+    {
+      "path": "2016/Q2/en-edtech.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 5898
+    },
+    {
+      "path": "2016/Q2/en-fintech_invest.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 12994
+    },
+    {
+      "path": "2016/Q2/en-gaming.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 5008
+    },
+    {
+      "path": "2016/Q2/en-health_wellness.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 948
+    },
+    {
+      "path": "2016/Q2/en-marketing.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 36526
+    },
+    {
+      "path": "2016/Q2/en-open_source_emerging.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 337560
+    },
+    {
+      "path": "2016/Q2/en-saas_productivity.ndjson",
+      "year": 2016,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 7252
+    },
+    {
+      "path": "2016/Q3/en-ai_ml.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 461
+    },
+    {
+      "path": "2016/Q3/en-big_tech_macro.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 41095
+    },
+    {
+      "path": "2016/Q3/en-creator_economy.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 549
+    },
+    {
+      "path": "2016/Q3/en-developer_tools.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 40004
+    },
+    {
+      "path": "2016/Q3/en-ecommerce.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 7639
+    },
+    {
+      "path": "2016/Q3/en-edtech.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 5660
+    },
+    {
+      "path": "2016/Q3/en-fintech_invest.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 12645
+    },
+    {
+      "path": "2016/Q3/en-gaming.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 5961
+    },
+    {
+      "path": "2016/Q3/en-health_wellness.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 950
+    },
+    {
+      "path": "2016/Q3/en-marketing.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 36920
+    },
+    {
+      "path": "2016/Q3/en-open_source_emerging.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 360496
+    },
+    {
+      "path": "2016/Q3/en-saas_productivity.ndjson",
+      "year": 2016,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1637
+    },
+    {
+      "path": "2016/Q4/en-ai_ml.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 564
+    },
+    {
+      "path": "2016/Q4/en-big_tech_macro.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 39140
+    },
+    {
+      "path": "2016/Q4/en-developer_tools.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 36445
+    },
+    {
+      "path": "2016/Q4/en-ecommerce.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 10562
+    },
+    {
+      "path": "2016/Q4/en-edtech.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 3528
+    },
+    {
+      "path": "2016/Q4/en-fintech_invest.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 13617
+    },
+    {
+      "path": "2016/Q4/en-gaming.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 9705
+    },
+    {
+      "path": "2016/Q4/en-health_wellness.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 4272
+    },
+    {
+      "path": "2016/Q4/en-marketing.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 34320
+    },
+    {
+      "path": "2016/Q4/en-open_source_emerging.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 331733
+    },
+    {
+      "path": "2016/Q4/en-saas_productivity.ndjson",
+      "year": 2016,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 4337
+    },
+    {
+      "path": "2017/Q1/en-ai_ml.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1000
+    },
+    {
+      "path": "2017/Q1/en-big_tech_macro.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 45960
+    },
+    {
+      "path": "2017/Q1/en-creator_economy.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 458
+    },
+    {
+      "path": "2017/Q1/en-developer_tools.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 35832
+    },
+    {
+      "path": "2017/Q1/en-ecommerce.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 11350
+    },
+    {
+      "path": "2017/Q1/en-edtech.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 7909
+    },
+    {
+      "path": "2017/Q1/en-fintech_invest.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 9110
+    },
+    {
+      "path": "2017/Q1/en-gaming.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 6651
+    },
+    {
+      "path": "2017/Q1/en-health_wellness.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 4693
+    },
+    {
+      "path": "2017/Q1/en-marketing.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 25460
+    },
+    {
+      "path": "2017/Q1/en-open_source_emerging.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 292268
+    },
+    {
+      "path": "2017/Q1/en-saas_productivity.ndjson",
+      "year": 2017,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 3766
+    },
+    {
+      "path": "2017/Q2/en-ai_ml.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1914
+    },
+    {
+      "path": "2017/Q2/en-big_tech_macro.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 46887
+    },
+    {
+      "path": "2017/Q2/en-developer_tools.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 41885
+    },
+    {
+      "path": "2017/Q2/en-ecommerce.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 12551
+    },
+    {
+      "path": "2017/Q2/en-edtech.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 8189
+    },
+    {
+      "path": "2017/Q2/en-fintech_invest.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 6861
+    },
+    {
+      "path": "2017/Q2/en-gaming.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 6096
+    },
+    {
+      "path": "2017/Q2/en-health_wellness.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1489
+    },
+    {
+      "path": "2017/Q2/en-marketing.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 32267
+    },
+    {
+      "path": "2017/Q2/en-open_source_emerging.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 310066
+    },
+    {
+      "path": "2017/Q2/en-saas_productivity.ndjson",
+      "year": 2017,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2314
+    },
+    {
+      "path": "2017/Q3/en-ai_ml.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1216
+    },
+    {
+      "path": "2017/Q3/en-big_tech_macro.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 52370
+    },
+    {
+      "path": "2017/Q3/en-creator_economy.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 442
+    },
+    {
+      "path": "2017/Q3/en-developer_tools.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 41960
+    },
+    {
+      "path": "2017/Q3/en-ecommerce.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 12800
+    },
+    {
+      "path": "2017/Q3/en-edtech.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 8952
+    },
+    {
+      "path": "2017/Q3/en-fintech_invest.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 9581
+    },
+    {
+      "path": "2017/Q3/en-gaming.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 7674
+    },
+    {
+      "path": "2017/Q3/en-health_wellness.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 4996
+    },
+    {
+      "path": "2017/Q3/en-marketing.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 34500
+    },
+    {
+      "path": "2017/Q3/en-open_source_emerging.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 321681
+    },
+    {
+      "path": "2017/Q3/en-saas_productivity.ndjson",
+      "year": 2017,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 3069
+    },
+    {
+      "path": "2017/Q4/en-ai_ml.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 518
+    },
+    {
+      "path": "2017/Q4/en-big_tech_macro.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 37001
+    },
+    {
+      "path": "2017/Q4/en-creator_economy.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1476
+    },
+    {
+      "path": "2017/Q4/en-developer_tools.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 42958
+    },
+    {
+      "path": "2017/Q4/en-ecommerce.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 9603
+    },
+    {
+      "path": "2017/Q4/en-edtech.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 6274
+    },
+    {
+      "path": "2017/Q4/en-fintech_invest.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 9588
+    },
+    {
+      "path": "2017/Q4/en-gaming.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 7282
+    },
+    {
+      "path": "2017/Q4/en-health_wellness.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 2099
+    },
+    {
+      "path": "2017/Q4/en-marketing.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 50717
+    },
+    {
+      "path": "2017/Q4/en-open_source_emerging.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 337632
+    },
+    {
+      "path": "2017/Q4/en-saas_productivity.ndjson",
+      "year": 2017,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 3754
+    },
+    {
+      "path": "2018/Q1/en-ai_ml.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 995
+    },
+    {
+      "path": "2018/Q1/en-big_tech_macro.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 26835
+    },
+    {
+      "path": "2018/Q1/en-developer_tools.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 33037
+    },
+    {
+      "path": "2018/Q1/en-ecommerce.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 7018
+    },
+    {
+      "path": "2018/Q1/en-edtech.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 5329
+    },
+    {
+      "path": "2018/Q1/en-fintech_invest.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 5727
+    },
+    {
+      "path": "2018/Q1/en-gaming.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 8943
+    },
+    {
+      "path": "2018/Q1/en-health_wellness.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 5362
+    },
+    {
+      "path": "2018/Q1/en-marketing.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 31034
+    },
+    {
+      "path": "2018/Q1/en-open_source_emerging.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 315406
+    },
+    {
+      "path": "2018/Q1/en-saas_productivity.ndjson",
+      "year": 2018,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 978
+    },
+    {
+      "path": "2018/Q2/en-ai_ml.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 4010
+    },
+    {
+      "path": "2018/Q2/en-big_tech_macro.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 35453
+    },
+    {
+      "path": "2018/Q2/en-creator_economy.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 430
+    },
+    {
+      "path": "2018/Q2/en-developer_tools.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 33303
+    },
+    {
+      "path": "2018/Q2/en-ecommerce.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 7243
+    },
+    {
+      "path": "2018/Q2/en-edtech.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 6554
+    },
+    {
+      "path": "2018/Q2/en-fintech_invest.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 7794
+    },
+    {
+      "path": "2018/Q2/en-gaming.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 7868
+    },
+    {
+      "path": "2018/Q2/en-health_wellness.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 3343
+    },
+    {
+      "path": "2018/Q2/en-marketing.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 41607
+    },
+    {
+      "path": "2018/Q2/en-open_source_emerging.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 264348
+    },
+    {
+      "path": "2018/Q2/en-saas_productivity.ndjson",
+      "year": 2018,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2887
+    },
+    {
+      "path": "2018/Q3/en-ai_ml.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1482
+    },
+    {
+      "path": "2018/Q3/en-big_tech_macro.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 35269
+    },
+    {
+      "path": "2018/Q3/en-creator_economy.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 970
+    },
+    {
+      "path": "2018/Q3/en-developer_tools.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 32703
+    },
+    {
+      "path": "2018/Q3/en-ecommerce.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 5747
+    },
+    {
+      "path": "2018/Q3/en-edtech.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 6033
+    },
+    {
+      "path": "2018/Q3/en-fintech_invest.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 4672
+    },
+    {
+      "path": "2018/Q3/en-gaming.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 8583
+    },
+    {
+      "path": "2018/Q3/en-health_wellness.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 2430
+    },
+    {
+      "path": "2018/Q3/en-marketing.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 44260
+    },
+    {
+      "path": "2018/Q3/en-open_source_emerging.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 264281
+    },
+    {
+      "path": "2018/Q3/en-saas_productivity.ndjson",
+      "year": 2018,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2656
+    },
+    {
+      "path": "2018/Q4/en-ai_ml.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 3231
+    },
+    {
+      "path": "2018/Q4/en-big_tech_macro.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 30999
+    },
+    {
+      "path": "2018/Q4/en-creator_economy.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1906
+    },
+    {
+      "path": "2018/Q4/en-developer_tools.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 31948
+    },
+    {
+      "path": "2018/Q4/en-ecommerce.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 14102
+    },
+    {
+      "path": "2018/Q4/en-edtech.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 8426
+    },
+    {
+      "path": "2018/Q4/en-fintech_invest.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 6408
+    },
+    {
+      "path": "2018/Q4/en-gaming.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 5670
+    },
+    {
+      "path": "2018/Q4/en-health_wellness.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 4751
+    },
+    {
+      "path": "2018/Q4/en-marketing.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 32767
+    },
+    {
+      "path": "2018/Q4/en-open_source_emerging.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 277073
+    },
+    {
+      "path": "2018/Q4/en-saas_productivity.ndjson",
+      "year": 2018,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1091
+    },
+    {
+      "path": "2019/Q1/en-ai_ml.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1470
+    },
+    {
+      "path": "2019/Q1/en-big_tech_macro.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 19804
+    },
+    {
+      "path": "2019/Q1/en-creator_economy.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 668
+    },
+    {
+      "path": "2019/Q1/en-developer_tools.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 30302
+    },
+    {
+      "path": "2019/Q1/en-ecommerce.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 8698
+    },
+    {
+      "path": "2019/Q1/en-edtech.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 8696
+    },
+    {
+      "path": "2019/Q1/en-fintech_invest.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 3787
+    },
+    {
+      "path": "2019/Q1/en-gaming.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3335
+    },
+    {
+      "path": "2019/Q1/en-health_wellness.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 3230
+    },
+    {
+      "path": "2019/Q1/en-marketing.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 18593
+    },
+    {
+      "path": "2019/Q1/en-open_source_emerging.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 207035
+    },
+    {
+      "path": "2019/Q1/en-saas_productivity.ndjson",
+      "year": 2019,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2273
+    },
+    {
+      "path": "2019/Q2/en-ai_ml.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1386
+    },
+    {
+      "path": "2019/Q2/en-big_tech_macro.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 29367
+    },
+    {
+      "path": "2019/Q2/en-developer_tools.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 23118
+    },
+    {
+      "path": "2019/Q2/en-ecommerce.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 2218
+    },
+    {
+      "path": "2019/Q2/en-edtech.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 6857
+    },
+    {
+      "path": "2019/Q2/en-fintech_invest.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 3666
+    },
+    {
+      "path": "2019/Q2/en-gaming.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 4416
+    },
+    {
+      "path": "2019/Q2/en-health_wellness.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 3656
+    },
+    {
+      "path": "2019/Q2/en-marketing.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 28793
+    },
+    {
+      "path": "2019/Q2/en-open_source_emerging.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 225807
+    },
+    {
+      "path": "2019/Q2/en-saas_productivity.ndjson",
+      "year": 2019,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 377
+    },
+    {
+      "path": "2019/Q3/en-ai_ml.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1467
+    },
+    {
+      "path": "2019/Q3/en-big_tech_macro.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 21992
+    },
+    {
+      "path": "2019/Q3/en-creator_economy.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1241
+    },
+    {
+      "path": "2019/Q3/en-developer_tools.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 26324
+    },
+    {
+      "path": "2019/Q3/en-ecommerce.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 10153
+    },
+    {
+      "path": "2019/Q3/en-edtech.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 4040
+    },
+    {
+      "path": "2019/Q3/en-fintech_invest.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 6152
+    },
+    {
+      "path": "2019/Q3/en-gaming.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 1357
+    },
+    {
+      "path": "2019/Q3/en-health_wellness.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 4104
+    },
+    {
+      "path": "2019/Q3/en-marketing.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 26428
+    },
+    {
+      "path": "2019/Q3/en-open_source_emerging.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 213690
+    },
+    {
+      "path": "2019/Q3/en-saas_productivity.ndjson",
+      "year": 2019,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2197
+    },
+    {
+      "path": "2019/Q4/en-ai_ml.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 463
+    },
+    {
+      "path": "2019/Q4/en-big_tech_macro.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 26172
+    },
+    {
+      "path": "2019/Q4/en-developer_tools.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 30087
+    },
+    {
+      "path": "2019/Q4/en-ecommerce.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 7208
+    },
+    {
+      "path": "2019/Q4/en-edtech.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 4329
+    },
+    {
+      "path": "2019/Q4/en-fintech_invest.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 4783
+    },
+    {
+      "path": "2019/Q4/en-gaming.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 6949
+    },
+    {
+      "path": "2019/Q4/en-health_wellness.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1828
+    },
+    {
+      "path": "2019/Q4/en-marketing.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 29181
+    },
+    {
+      "path": "2019/Q4/en-open_source_emerging.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 231424
+    },
+    {
+      "path": "2019/Q4/en-saas_productivity.ndjson",
+      "year": 2019,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1361
+    },
+    {
+      "path": "2020/Q1/en-ai_ml.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 822
+    },
+    {
+      "path": "2020/Q1/en-big_tech_macro.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 29349
+    },
+    {
+      "path": "2020/Q1/en-creator_economy.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 3178
+    },
+    {
+      "path": "2020/Q1/en-developer_tools.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 20696
+    },
+    {
+      "path": "2020/Q1/en-ecommerce.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 1926
+    },
+    {
+      "path": "2020/Q1/en-edtech.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 4817
+    },
+    {
+      "path": "2020/Q1/en-fintech_invest.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 5492
+    },
+    {
+      "path": "2020/Q1/en-gaming.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3756
+    },
+    {
+      "path": "2020/Q1/en-health_wellness.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 3226
+    },
+    {
+      "path": "2020/Q1/en-marketing.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 18951
+    },
+    {
+      "path": "2020/Q1/en-open_source_emerging.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 194618
+    },
+    {
+      "path": "2020/Q1/en-saas_productivity.ndjson",
+      "year": 2020,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1787
+    },
+    {
+      "path": "2020/Q2/en-ai_ml.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 2802
+    },
+    {
+      "path": "2020/Q2/en-big_tech_macro.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 21247
+    },
+    {
+      "path": "2020/Q2/en-creator_economy.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1501
+    },
+    {
+      "path": "2020/Q2/en-developer_tools.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 26059
+    },
+    {
+      "path": "2020/Q2/en-ecommerce.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 3953
+    },
+    {
+      "path": "2020/Q2/en-edtech.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2553
+    },
+    {
+      "path": "2020/Q2/en-fintech_invest.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 3748
+    },
+    {
+      "path": "2020/Q2/en-gaming.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 5993
+    },
+    {
+      "path": "2020/Q2/en-health_wellness.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1744
+    },
+    {
+      "path": "2020/Q2/en-marketing.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 18821
+    },
+    {
+      "path": "2020/Q2/en-open_source_emerging.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 182882
+    },
+    {
+      "path": "2020/Q2/en-saas_productivity.ndjson",
+      "year": 2020,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 4147
+    },
+    {
+      "path": "2020/Q3/en-ai_ml.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 2103
+    },
+    {
+      "path": "2020/Q3/en-big_tech_macro.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 24984
+    },
+    {
+      "path": "2020/Q3/en-creator_economy.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1445
+    },
+    {
+      "path": "2020/Q3/en-developer_tools.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 27086
+    },
+    {
+      "path": "2020/Q3/en-ecommerce.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 6326
+    },
+    {
+      "path": "2020/Q3/en-edtech.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2343
+    },
+    {
+      "path": "2020/Q3/en-fintech_invest.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 5180
+    },
+    {
+      "path": "2020/Q3/en-gaming.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3869
+    },
+    {
+      "path": "2020/Q3/en-health_wellness.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 5472
+    },
+    {
+      "path": "2020/Q3/en-marketing.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 29627
+    },
+    {
+      "path": "2020/Q3/en-open_source_emerging.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 223578
+    },
+    {
+      "path": "2020/Q3/en-saas_productivity.ndjson",
+      "year": 2020,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2636
+    },
+    {
+      "path": "2020/Q4/en-ai_ml.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 2910
+    },
+    {
+      "path": "2020/Q4/en-big_tech_macro.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 34143
+    },
+    {
+      "path": "2020/Q4/en-creator_economy.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 314
+    },
+    {
+      "path": "2020/Q4/en-developer_tools.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 24893
+    },
+    {
+      "path": "2020/Q4/en-ecommerce.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 7459
+    },
+    {
+      "path": "2020/Q4/en-edtech.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 4103
+    },
+    {
+      "path": "2020/Q4/en-fintech_invest.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 5711
+    },
+    {
+      "path": "2020/Q4/en-gaming.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 4697
+    },
+    {
+      "path": "2020/Q4/en-health_wellness.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 4903
+    },
+    {
+      "path": "2020/Q4/en-marketing.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 25532
+    },
+    {
+      "path": "2020/Q4/en-open_source_emerging.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 218945
+    },
+    {
+      "path": "2020/Q4/en-saas_productivity.ndjson",
+      "year": 2020,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 3942
+    },
+    {
+      "path": "2021/Q1/en-ai_ml.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1236
+    },
+    {
+      "path": "2021/Q1/en-big_tech_macro.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 28682
+    },
+    {
+      "path": "2021/Q1/en-developer_tools.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 19659
+    },
+    {
+      "path": "2021/Q1/en-ecommerce.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 3038
+    },
+    {
+      "path": "2021/Q1/en-edtech.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 717
+    },
+    {
+      "path": "2021/Q1/en-fintech_invest.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 3366
+    },
+    {
+      "path": "2021/Q1/en-gaming.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 6607
+    },
+    {
+      "path": "2021/Q1/en-health_wellness.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 3036
+    },
+    {
+      "path": "2021/Q1/en-marketing.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 33677
+    },
+    {
+      "path": "2021/Q1/en-open_source_emerging.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 189310
+    },
+    {
+      "path": "2021/Q1/en-saas_productivity.ndjson",
+      "year": 2021,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2064
+    },
+    {
+      "path": "2021/Q2/en-ai_ml.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 2041
+    },
+    {
+      "path": "2021/Q2/en-big_tech_macro.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 31161
+    },
+    {
+      "path": "2021/Q2/en-creator_economy.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 322
+    },
+    {
+      "path": "2021/Q2/en-developer_tools.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 19574
+    },
+    {
+      "path": "2021/Q2/en-ecommerce.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 6593
+    },
+    {
+      "path": "2021/Q2/en-edtech.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2161
+    },
+    {
+      "path": "2021/Q2/en-fintech_invest.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 7205
+    },
+    {
+      "path": "2021/Q2/en-gaming.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3457
+    },
+    {
+      "path": "2021/Q2/en-health_wellness.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 4038
+    },
+    {
+      "path": "2021/Q2/en-marketing.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 28589
+    },
+    {
+      "path": "2021/Q2/en-open_source_emerging.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 197527
+    },
+    {
+      "path": "2021/Q2/en-saas_productivity.ndjson",
+      "year": 2021,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2119
+    },
+    {
+      "path": "2021/Q3/en-ai_ml.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 6448
+    },
+    {
+      "path": "2021/Q3/en-big_tech_macro.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 35047
+    },
+    {
+      "path": "2021/Q3/en-creator_economy.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 2020
+    },
+    {
+      "path": "2021/Q3/en-developer_tools.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 24517
+    },
+    {
+      "path": "2021/Q3/en-ecommerce.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 4818
+    },
+    {
+      "path": "2021/Q3/en-edtech.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 4460
+    },
+    {
+      "path": "2021/Q3/en-fintech_invest.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 9291
+    },
+    {
+      "path": "2021/Q3/en-gaming.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 7165
+    },
+    {
+      "path": "2021/Q3/en-health_wellness.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 3539
+    },
+    {
+      "path": "2021/Q3/en-marketing.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 33307
+    },
+    {
+      "path": "2021/Q3/en-open_source_emerging.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 195137
+    },
+    {
+      "path": "2021/Q3/en-saas_productivity.ndjson",
+      "year": 2021,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 3754
+    },
+    {
+      "path": "2021/Q4/en-ai_ml.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 1101
+    },
+    {
+      "path": "2021/Q4/en-big_tech_macro.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 21725
+    },
+    {
+      "path": "2021/Q4/en-creator_economy.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 368
+    },
+    {
+      "path": "2021/Q4/en-developer_tools.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 21568
+    },
+    {
+      "path": "2021/Q4/en-ecommerce.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 7032
+    },
+    {
+      "path": "2021/Q4/en-edtech.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1103
+    },
+    {
+      "path": "2021/Q4/en-fintech_invest.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 7453
+    },
+    {
+      "path": "2021/Q4/en-gaming.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 4481
+    },
+    {
+      "path": "2021/Q4/en-health_wellness.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1593
+    },
+    {
+      "path": "2021/Q4/en-marketing.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 32705
+    },
+    {
+      "path": "2021/Q4/en-open_source_emerging.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 185577
+    },
+    {
+      "path": "2021/Q4/en-saas_productivity.ndjson",
+      "year": 2021,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1299
+    },
+    {
+      "path": "2022/Q1/en-ai_ml.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 745
+    },
+    {
+      "path": "2022/Q1/en-big_tech_macro.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 28788
+    },
+    {
+      "path": "2022/Q1/en-creator_economy.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 395
+    },
+    {
+      "path": "2022/Q1/en-developer_tools.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 17610
+    },
+    {
+      "path": "2022/Q1/en-ecommerce.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 3884
+    },
+    {
+      "path": "2022/Q1/en-edtech.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2057
+    },
+    {
+      "path": "2022/Q1/en-fintech_invest.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 1596
+    },
+    {
+      "path": "2022/Q1/en-gaming.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 5879
+    },
+    {
+      "path": "2022/Q1/en-health_wellness.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 2962
+    },
+    {
+      "path": "2022/Q1/en-marketing.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 25226
+    },
+    {
+      "path": "2022/Q1/en-open_source_emerging.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 170550
+    },
+    {
+      "path": "2022/Q1/en-saas_productivity.ndjson",
+      "year": 2022,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1332
+    },
+    {
+      "path": "2022/Q2/en-ai_ml.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 4028
+    },
+    {
+      "path": "2022/Q2/en-big_tech_macro.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 30077
+    },
+    {
+      "path": "2022/Q2/en-developer_tools.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 19992
+    },
+    {
+      "path": "2022/Q2/en-ecommerce.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 1918
+    },
+    {
+      "path": "2022/Q2/en-edtech.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1448
+    },
+    {
+      "path": "2022/Q2/en-fintech_invest.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 6624
+    },
+    {
+      "path": "2022/Q2/en-gaming.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 6320
+    },
+    {
+      "path": "2022/Q2/en-health_wellness.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1051
+    },
+    {
+      "path": "2022/Q2/en-marketing.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 19810
+    },
+    {
+      "path": "2022/Q2/en-open_source_emerging.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 176753
+    },
+    {
+      "path": "2022/Q2/en-saas_productivity.ndjson",
+      "year": 2022,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2848
+    },
+    {
+      "path": "2022/Q3/en-ai_ml.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 6515
+    },
+    {
+      "path": "2022/Q3/en-big_tech_macro.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 31291
+    },
+    {
+      "path": "2022/Q3/en-creator_economy.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1590
+    },
+    {
+      "path": "2022/Q3/en-developer_tools.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 22349
+    },
+    {
+      "path": "2022/Q3/en-ecommerce.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 3781
+    },
+    {
+      "path": "2022/Q3/en-edtech.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1843
+    },
+    {
+      "path": "2022/Q3/en-fintech_invest.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 4827
+    },
+    {
+      "path": "2022/Q3/en-gaming.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 9789
+    },
+    {
+      "path": "2022/Q3/en-health_wellness.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 3460
+    },
+    {
+      "path": "2022/Q3/en-marketing.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 37551
+    },
+    {
+      "path": "2022/Q3/en-open_source_emerging.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 191038
+    },
+    {
+      "path": "2022/Q3/en-saas_productivity.ndjson",
+      "year": 2022,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1151
+    },
+    {
+      "path": "2022/Q4/en-ai_ml.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 10883
+    },
+    {
+      "path": "2022/Q4/en-big_tech_macro.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 28979
+    },
+    {
+      "path": "2022/Q4/en-developer_tools.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 18286
+    },
+    {
+      "path": "2022/Q4/en-ecommerce.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 9025
+    },
+    {
+      "path": "2022/Q4/en-edtech.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 3769
+    },
+    {
+      "path": "2022/Q4/en-fintech_invest.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 5038
+    },
+    {
+      "path": "2022/Q4/en-gaming.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3525
+    },
+    {
+      "path": "2022/Q4/en-health_wellness.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 3044
+    },
+    {
+      "path": "2022/Q4/en-marketing.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 44598
+    },
+    {
+      "path": "2022/Q4/en-open_source_emerging.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 180141
+    },
+    {
+      "path": "2022/Q4/en-saas_productivity.ndjson",
+      "year": 2022,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1127
+    },
+    {
+      "path": "2023/Q1/en-ai_ml.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 24533
+    },
+    {
+      "path": "2023/Q1/en-big_tech_macro.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 18503
+    },
+    {
+      "path": "2023/Q1/en-creator_economy.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1403
+    },
+    {
+      "path": "2023/Q1/en-developer_tools.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 19505
+    },
+    {
+      "path": "2023/Q1/en-ecommerce.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 3664
+    },
+    {
+      "path": "2023/Q1/en-edtech.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1501
+    },
+    {
+      "path": "2023/Q1/en-fintech_invest.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 3050
+    },
+    {
+      "path": "2023/Q1/en-gaming.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 5077
+    },
+    {
+      "path": "2023/Q1/en-health_wellness.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1846
+    },
+    {
+      "path": "2023/Q1/en-marketing.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 27067
+    },
+    {
+      "path": "2023/Q1/en-open_source_emerging.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 153901
+    },
+    {
+      "path": "2023/Q1/en-saas_productivity.ndjson",
+      "year": 2023,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1048
+    },
+    {
+      "path": "2023/Q2/en-ai_ml.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 29455
+    },
+    {
+      "path": "2023/Q2/en-big_tech_macro.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 24648
+    },
+    {
+      "path": "2023/Q2/en-creator_economy.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1594
+    },
+    {
+      "path": "2023/Q2/en-developer_tools.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 17278
+    },
+    {
+      "path": "2023/Q2/en-ecommerce.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 3795
+    },
+    {
+      "path": "2023/Q2/en-edtech.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1975
+    },
+    {
+      "path": "2023/Q2/en-fintech_invest.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 5235
+    },
+    {
+      "path": "2023/Q2/en-gaming.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 2860
+    },
+    {
+      "path": "2023/Q2/en-health_wellness.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 2158
+    },
+    {
+      "path": "2023/Q2/en-marketing.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 32231
+    },
+    {
+      "path": "2023/Q2/en-open_source_emerging.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 178092
+    },
+    {
+      "path": "2023/Q2/en-saas_productivity.ndjson",
+      "year": 2023,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2703
+    },
+    {
+      "path": "2023/Q3/en-ai_ml.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 17304
+    },
+    {
+      "path": "2023/Q3/en-big_tech_macro.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 27074
+    },
+    {
+      "path": "2023/Q3/en-creator_economy.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1239
+    },
+    {
+      "path": "2023/Q3/en-developer_tools.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 17732
+    },
+    {
+      "path": "2023/Q3/en-ecommerce.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 2234
+    },
+    {
+      "path": "2023/Q3/en-edtech.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2364
+    },
+    {
+      "path": "2023/Q3/en-fintech_invest.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 2601
+    },
+    {
+      "path": "2023/Q3/en-gaming.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 2541
+    },
+    {
+      "path": "2023/Q3/en-health_wellness.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 2429
+    },
+    {
+      "path": "2023/Q3/en-marketing.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 27342
+    },
+    {
+      "path": "2023/Q3/en-open_source_emerging.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 172743
+    },
+    {
+      "path": "2023/Q3/en-saas_productivity.ndjson",
+      "year": 2023,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 695
+    },
+    {
+      "path": "2023/Q4/en-ai_ml.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 19106
+    },
+    {
+      "path": "2023/Q4/en-big_tech_macro.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 27474
+    },
+    {
+      "path": "2023/Q4/en-creator_economy.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 724
+    },
+    {
+      "path": "2023/Q4/en-developer_tools.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 17096
+    },
+    {
+      "path": "2023/Q4/en-ecommerce.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 3799
+    },
+    {
+      "path": "2023/Q4/en-edtech.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1200
+    },
+    {
+      "path": "2023/Q4/en-fintech_invest.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 1470
+    },
+    {
+      "path": "2023/Q4/en-gaming.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3025
+    },
+    {
+      "path": "2023/Q4/en-health_wellness.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1796
+    },
+    {
+      "path": "2023/Q4/en-marketing.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 29742
+    },
+    {
+      "path": "2023/Q4/en-open_source_emerging.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 186712
+    },
+    {
+      "path": "2023/Q4/en-saas_productivity.ndjson",
+      "year": 2023,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 377
+    },
+    {
+      "path": "2024/Q1/en-ai_ml.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 15687
+    },
+    {
+      "path": "2024/Q1/en-big_tech_macro.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 28208
+    },
+    {
+      "path": "2024/Q1/en-creator_economy.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 729
+    },
+    {
+      "path": "2024/Q1/en-developer_tools.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 14319
+    },
+    {
+      "path": "2024/Q1/en-ecommerce.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 2596
+    },
+    {
+      "path": "2024/Q1/en-edtech.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1715
+    },
+    {
+      "path": "2024/Q1/en-fintech_invest.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 3743
+    },
+    {
+      "path": "2024/Q1/en-gaming.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 2524
+    },
+    {
+      "path": "2024/Q1/en-health_wellness.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1111
+    },
+    {
+      "path": "2024/Q1/en-marketing.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 24415
+    },
+    {
+      "path": "2024/Q1/en-open_source_emerging.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 164634
+    },
+    {
+      "path": "2024/Q1/en-saas_productivity.ndjson",
+      "year": 2024,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 308
+    },
+    {
+      "path": "2024/Q2/en-ai_ml.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 12330
+    },
+    {
+      "path": "2024/Q2/en-big_tech_macro.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 16523
+    },
+    {
+      "path": "2024/Q2/en-creator_economy.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1926
+    },
+    {
+      "path": "2024/Q2/en-developer_tools.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 19748
+    },
+    {
+      "path": "2024/Q2/en-ecommerce.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 2624
+    },
+    {
+      "path": "2024/Q2/en-edtech.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2178
+    },
+    {
+      "path": "2024/Q2/en-fintech_invest.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 1143
+    },
+    {
+      "path": "2024/Q2/en-gaming.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3997
+    },
+    {
+      "path": "2024/Q2/en-health_wellness.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1025
+    },
+    {
+      "path": "2024/Q2/en-marketing.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 31143
+    },
+    {
+      "path": "2024/Q2/en-open_source_emerging.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 164354
+    },
+    {
+      "path": "2024/Q2/en-saas_productivity.ndjson",
+      "year": 2024,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 3224
+    },
+    {
+      "path": "2024/Q3/en-ai_ml.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 14440
+    },
+    {
+      "path": "2024/Q3/en-big_tech_macro.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 21586
+    },
+    {
+      "path": "2024/Q3/en-creator_economy.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 416
+    },
+    {
+      "path": "2024/Q3/en-developer_tools.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 19483
+    },
+    {
+      "path": "2024/Q3/en-ecommerce.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 3409
+    },
+    {
+      "path": "2024/Q3/en-edtech.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2092
+    },
+    {
+      "path": "2024/Q3/en-fintech_invest.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 1624
+    },
+    {
+      "path": "2024/Q3/en-gaming.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 4667
+    },
+    {
+      "path": "2024/Q3/en-health_wellness.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 347
+    },
+    {
+      "path": "2024/Q3/en-marketing.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 25378
+    },
+    {
+      "path": "2024/Q3/en-open_source_emerging.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 197990
+    },
+    {
+      "path": "2024/Q3/en-saas_productivity.ndjson",
+      "year": 2024,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 3255
+    },
+    {
+      "path": "2024/Q4/en-ai_ml.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 17101
+    },
+    {
+      "path": "2024/Q4/en-big_tech_macro.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 21360
+    },
+    {
+      "path": "2024/Q4/en-creator_economy.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 1289
+    },
+    {
+      "path": "2024/Q4/en-developer_tools.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 23629
+    },
+    {
+      "path": "2024/Q4/en-ecommerce.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 6079
+    },
+    {
+      "path": "2024/Q4/en-edtech.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1408
+    },
+    {
+      "path": "2024/Q4/en-fintech_invest.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 4192
+    },
+    {
+      "path": "2024/Q4/en-gaming.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 2783
+    },
+    {
+      "path": "2024/Q4/en-health_wellness.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1488
+    },
+    {
+      "path": "2024/Q4/en-marketing.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 29649
+    },
+    {
+      "path": "2024/Q4/en-open_source_emerging.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 221432
+    },
+    {
+      "path": "2024/Q4/en-saas_productivity.ndjson",
+      "year": 2024,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1414
+    },
+    {
+      "path": "2025/Q1/en-ai_ml.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 24735
+    },
+    {
+      "path": "2025/Q1/en-big_tech_macro.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 20649
+    },
+    {
+      "path": "2025/Q1/en-creator_economy.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 298
+    },
+    {
+      "path": "2025/Q1/en-developer_tools.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 12705
+    },
+    {
+      "path": "2025/Q1/en-ecommerce.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 1160
+    },
+    {
+      "path": "2025/Q1/en-edtech.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2167
+    },
+    {
+      "path": "2025/Q1/en-fintech_invest.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 2608
+    },
+    {
+      "path": "2025/Q1/en-gaming.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 6038
+    },
+    {
+      "path": "2025/Q1/en-health_wellness.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1485
+    },
+    {
+      "path": "2025/Q1/en-marketing.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 30948
+    },
+    {
+      "path": "2025/Q1/en-open_source_emerging.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 179308
+    },
+    {
+      "path": "2025/Q1/en-saas_productivity.ndjson",
+      "year": 2025,
+      "quarter": 1,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 2656
+    },
+    {
+      "path": "2025/Q2/en-ai_ml.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 17705
+    },
+    {
+      "path": "2025/Q2/en-big_tech_macro.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 17962
+    },
+    {
+      "path": "2025/Q2/en-creator_economy.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 789
+    },
+    {
+      "path": "2025/Q2/en-developer_tools.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 13340
+    },
+    {
+      "path": "2025/Q2/en-ecommerce.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 1726
+    },
+    {
+      "path": "2025/Q2/en-edtech.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1859
+    },
+    {
+      "path": "2025/Q2/en-fintech_invest.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 1970
+    },
+    {
+      "path": "2025/Q2/en-gaming.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3288
+    },
+    {
+      "path": "2025/Q2/en-health_wellness.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 460
+    },
+    {
+      "path": "2025/Q2/en-marketing.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 17930
+    },
+    {
+      "path": "2025/Q2/en-open_source_emerging.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 190394
+    },
+    {
+      "path": "2025/Q2/en-saas_productivity.ndjson",
+      "year": 2025,
+      "quarter": 2,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1899
+    },
+    {
+      "path": "2025/Q3/en-ai_ml.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 31129
+    },
+    {
+      "path": "2025/Q3/en-big_tech_macro.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 22670
+    },
+    {
+      "path": "2025/Q3/en-creator_economy.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 2279
+    },
+    {
+      "path": "2025/Q3/en-developer_tools.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 16311
+    },
+    {
+      "path": "2025/Q3/en-ecommerce.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 1614
+    },
+    {
+      "path": "2025/Q3/en-edtech.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 2332
+    },
+    {
+      "path": "2025/Q3/en-fintech_invest.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 1533
+    },
+    {
+      "path": "2025/Q3/en-gaming.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 6805
+    },
+    {
+      "path": "2025/Q3/en-health_wellness.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1942
+    },
+    {
+      "path": "2025/Q3/en-marketing.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 28719
+    },
+    {
+      "path": "2025/Q3/en-open_source_emerging.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 178020
+    },
+    {
+      "path": "2025/Q3/en-saas_productivity.ndjson",
+      "year": 2025,
+      "quarter": 3,
+      "lang": "en",
+      "vertical": "saas_productivity",
+      "size_bytes": 1703
+    },
+    {
+      "path": "2025/Q4/en-ai_ml.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ai_ml",
+      "size_bytes": 22503
+    },
+    {
+      "path": "2025/Q4/en-big_tech_macro.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "big_tech_macro",
+      "size_bytes": 21630
+    },
+    {
+      "path": "2025/Q4/en-creator_economy.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "creator_economy",
+      "size_bytes": 755
+    },
+    {
+      "path": "2025/Q4/en-developer_tools.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "developer_tools",
+      "size_bytes": 18999
+    },
+    {
+      "path": "2025/Q4/en-ecommerce.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "ecommerce",
+      "size_bytes": 4449
+    },
+    {
+      "path": "2025/Q4/en-edtech.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "edtech",
+      "size_bytes": 1090
+    },
+    {
+      "path": "2025/Q4/en-fintech_invest.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "fintech_invest",
+      "size_bytes": 2901
+    },
+    {
+      "path": "2025/Q4/en-gaming.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "gaming",
+      "size_bytes": 3145
+    },
+    {
+      "path": "2025/Q4/en-health_wellness.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "health_wellness",
+      "size_bytes": 1848
+    },
+    {
+      "path": "2025/Q4/en-marketing.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "marketing",
+      "size_bytes": 19943
+    },
+    {
+      "path": "2025/Q4/en-open_source_emerging.ndjson",
+      "year": 2025,
+      "quarter": 4,
+      "lang": "en",
+      "vertical": "open_source_emerging",
+      "size_bytes": 188770
+    }
+  ]
 }

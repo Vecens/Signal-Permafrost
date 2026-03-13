@@ -16,11 +16,12 @@ We do not store articles. We do not store opinions. We store **Vectors of Hype a
 As the internet breathes, concepts are born, they mutate, and they decay. Vecens extracts these thermodynamic changes, strips them of their superficial UI, and freezes the raw semantic coordinates into `.ndjson` strata blocks. 
 
 ```text
-strata/
-└── {YEAR}/
-    └── Q{1-4}/
-        └── {lang}-{vertical}.ndjson
+{YEAR}/
+└── Q{1-4}/
+    └── {lang}-{vertical}.ndjson
 ```
+
+**Coverage:** 2015-Q1 → 2025-Q4 · 514 slices · 12 verticals
 
 Anatomy of a Slice Every line you see is a frozen cross-section of a digital heartbeat.
 
