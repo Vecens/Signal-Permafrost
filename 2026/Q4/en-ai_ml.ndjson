@@ -1,0 +1,1 @@
+{"noun":"NVIDIA","noun_normalized":"nvidia","lang":"en","vertical":"ai_ml","occurrence_count":224,"source_count":34,"confidence":0.37,"trend_velocity":"declining","trend_stage":"rising","date_from":"2026-10-01","date_to":"2026-12-31","ctx_snippets":["Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest Discussed on HN: https://github.com/nestrilabs/virtio-nvgpu"]}
